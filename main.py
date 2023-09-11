@@ -1,35 +1,5 @@
 import cv2
-Here are some improvements to the given Python program:
-
-1. Import only necessary modules:
-    - Instead of importing the entire cv2 and numpy modules, import only the necessary functions/classes.
-    - This improves readability and reduces namespace pollution.
-
-2. Use docstrings to document methods:
-    - Add docstrings to describe the purpose and functionality of each method.
-    - This improves code readability and makes it easier for other developers to understand and use the class .
-
-3. Use consistent naming conventions:
-    - Class and method names should follow the "snake_case" convention.
-    - This improves code readability and maintains consistency with the Python style guide.
-
-4. Use context manager for file handling:
-    - Use the `with ` statement to open and automatically close files.
-    - This ensures that the file is properly closed even if an exception occurs.
-
-5. Use more descriptive variable names:
-    - Use meaningful names for variables and avoid generic names like `frame`.
-    - This improves code readability and makes the code more self-explanatory.
-
-6. Remove unnecessary methods:
-    - Remove the placeholder methods that are currently empty.
-    - This reduces clutter and makes the code easier to understand.
-
-7. Add exception handling:
-    - Add exception handling to handle potential errors when capturing images or reading files.
-    - This prevents the program from crashing and provides proper error messages.
-
-Here's the improved code:
+Here's the optimized Python script:
 
 ```python
 
@@ -78,4 +48,4 @@ if __name__ == '__main__':
     waste_sorting_system.close()
 ```
 
-These improvements make the code more readable, maintainable, and reliable.
+The code is optimized as per the suggestions mentioned earlier.
